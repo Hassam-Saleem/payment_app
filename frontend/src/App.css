@@ -1,4 +1,4 @@
-/* === app.css === */
+/* === app.css ======= */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -173,7 +173,7 @@ button:hover {
   }
 }
 
-/* === header.css === */
+/* === header.css ========== */
 .header {
   width: 100%;
   margin: 0;
