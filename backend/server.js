@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// MongoDB connection
+// MongoDB connection made
 mongoose.connect('mongodb+srv://yasir:yasir123@cluster0.8fgvlxf.mongodb.net/paymentDB?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true
