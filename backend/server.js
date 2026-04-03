@@ -25,7 +25,7 @@ app.post('/api/payment', async (req, res) => {
   }
 });
 
-// Assuming you already have your Payment model
+// considering you already have your Payment model
 app.get('/api/payment/email/:email', async (req, res) => {
   try {
     const user = await Payment.findOne({ email: req.params.email });
